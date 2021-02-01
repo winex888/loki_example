@@ -42,7 +42,7 @@
 1. Открыть Grafana (Explore) http://localhost:3000/explore, выбрать селектор
    `Log labels -> container_name -> example`.  
 
-Для сбора логов через системный журнал
+Для сбора логов через системный журнал 
 
 1. Настроить `promtail-local-config.yaml` указав какую дирикторию мониторить `__path__: /var/log/*log`
 
