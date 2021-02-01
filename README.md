@@ -1,4 +1,4 @@
-# Loki + Grafana
+# Централизованное хранилище логов Loki + Grafana
 
 1. Запустить Loki + Grafana с помощью docker-compose:
     
