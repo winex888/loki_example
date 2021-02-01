@@ -1,0 +1,33 @@
+Print
+{"process": 29429, "asctime": "2021-01-29 16:01:30,569", "name": "__main__", "levelname": "DEBUG", "message": "Dbg mes", "extra_code": "De", "nested": {"foo": 1, "bar": "bar"}, "app": "myExampleApp"}
+{"process": 29429, "asctime": "2021-01-29 16:01:30,569", "name": "__main__", "levelname": "INFO", "message": "Inf mes", "extra_code": "In", "app": "myExampleApp"}
+{"process": 29429, "asctime": "2021-01-29 16:01:30,570", "name": "__main__", "levelname": "WARNING", "message": "Wrng mes", "extra_code": "Wa", "app": "myExampleApp"}
+{"process": 29429, "asctime": "2021-01-29 16:01:30,570", "name": "__main__", "levelname": "CRITICAL", "message": "Crtcl mes", "extra_code": "Cr", "app": "myExampleApp"}
+{"process": 29429, "asctime": "2021-01-29 16:01:30,570", "name": "__main__", "levelname": "ERROR", "message": "Handled exception", "exc_info": "Traceback (most recent call last):\n  File \"example.py\", line 31, in <module>\n    1/0\nZeroDivisionError: division by zero", "extra_code": "Ex", "app": "myExampleApp"}
+Print
+{"process": 29645, "asctime": "2021-01-29 16:01:44,965", "name": "__main__", "levelname": "DEBUG", "message": "Dbg mes", "extra_code": "De", "nested": {"foo": 1, "bar": "bar"}, "app": "myExampleApp"}
+{"process": 29645, "asctime": "2021-01-29 16:01:44,965", "name": "__main__", "levelname": "INFO", "message": "Inf mes", "extra_code": "In", "app": "myExampleApp"}
+{"process": 29645, "asctime": "2021-01-29 16:01:44,965", "name": "__main__", "levelname": "WARNING", "message": "Wrng mes", "extra_code": "Wa", "app": "myExampleApp"}
+{"process": 29645, "asctime": "2021-01-29 16:01:44,965", "name": "__main__", "levelname": "CRITICAL", "message": "Crtcl mes", "extra_code": "Cr", "app": "myExampleApp"}
+{"process": 29645, "asctime": "2021-01-29 16:01:44,965", "name": "__main__", "levelname": "ERROR", "message": "Handled exception", "exc_info": "Traceback (most recent call last):\n  File \"example.py\", line 31, in <module>\n    1/0\nZeroDivisionError: division by zero", "extra_code": "Ex", "app": "myExampleApp"}
+Print
+{"process": 29646, "asctime": "2021-01-29 16:01:45,963", "name": "__main__", "levelname": "DEBUG", "message": "Dbg mes", "extra_code": "De", "nested": {"foo": 1, "bar": "bar"}, "app": "myExampleApp"}
+{"process": 29646, "asctime": "2021-01-29 16:01:45,963", "name": "__main__", "levelname": "INFO", "message": "Inf mes", "extra_code": "In", "app": "myExampleApp"}
+{"process": 29646, "asctime": "2021-01-29 16:01:45,963", "name": "__main__", "levelname": "WARNING", "message": "Wrng mes", "extra_code": "Wa", "app": "myExampleApp"}
+{"process": 29646, "asctime": "2021-01-29 16:01:45,963", "name": "__main__", "levelname": "CRITICAL", "message": "Crtcl mes", "extra_code": "Cr", "app": "myExampleApp"}
+{"process": 29646, "asctime": "2021-01-29 16:01:45,964", "name": "__main__", "levelname": "ERROR", "message": "Handled exception", "exc_info": "Traceback (most recent call last):\n  File \"example.py\", line 31, in <module>\n    1/0\nZeroDivisionError: division by zero", "extra_code": "Ex", "app": "myExampleApp"}
+Print
+{"process": 29647, "asctime": "2021-01-29 16:01:47,355", "name": "__main__", "levelname": "DEBUG", "message": "Dbg mes", "extra_code": "De", "nested": {"foo": 1, "bar": "bar"}, "app": "myExampleApp"}
+{"process": 29647, "asctime": "2021-01-29 16:01:47,355", "name": "__main__", "levelname": "INFO", "message": "Inf mes", "extra_code": "In", "app": "myExampleApp"}
+{"process": 29647, "asctime": "2021-01-29 16:01:47,355", "name": "__main__", "levelname": "WARNING", "message": "Wrng mes", "extra_code": "Wa", "app": "myExampleApp"}
+{"process": 29647, "asctime": "2021-01-29 16:01:47,355", "name": "__main__", "levelname": "CRITICAL", "message": "Crtcl mes", "extra_code": "Cr", "app": "myExampleApp"}
+{"process": 29647, "asctime": "2021-01-29 16:01:47,355", "name": "__main__", "levelname": "ERROR", "message": "Handled exception", "exc_info": "Traceback (most recent call last):\n  File \"example.py\", line 31, in <module>\n    1/0\nZeroDivisionError: division by zero", "extra_code": "Ex", "app": "myExampleApp"}
+
+
+
+Print
+{"process": 52684, "asctime": "2021-02-01 15:13:55,187", "name": "__main__", "levelname": "DEBUG", "message": "Dbg mes", "extra_code": "De", "nested": {"foo": 1, "bar": "bar"}, "app": "myExampleApp"}
+{"process": 52684, "asctime": "2021-02-01 15:13:55,188", "name": "__main__", "levelname": "INFO", "message": "Inf mes", "extra_code": "In", "app": "myExampleApp"}
+{"process": 52684, "asctime": "2021-02-01 15:13:55,188", "name": "__main__", "levelname": "WARNING", "message": "Wrng mes", "extra_code": "Wa", "app": "myExampleApp"}
+{"process": 52684, "asctime": "2021-02-01 15:13:55,188", "name": "__main__", "levelname": "CRITICAL", "message": "Crtcl mes", "extra_code": "Cr", "app": "myExampleApp"}
+{"process": 52684, "asctime": "2021-02-01 15:13:55,188", "name": "__main__", "levelname": "ERROR", "message": "Handled exception", "exc_info": "Traceback (most recent call last):\n  File \"example.py\", line 27, in <module>\n    1/0\nZeroDivisionError: division by zero", "extra_code": "Ex", "app": "myExampleApp"}

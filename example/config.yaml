@@ -1,0 +1,20 @@
+version: 1
+formatters:
+  basic:
+    (): 'custom_formatter.CustomJSONFormatter'
+    app: 'myExampleApp'
+    format: '%(process)d %(asctime)s %(name)s %(levelname)s %(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: basic
+    stream: ext://sys.stdout
+loggers:
+  basic:
+    level: DEBUG
+    handlers: [console]
+    propagate: no
+root:
+  level: DEBUG
+  handlers: [console]

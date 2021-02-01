@@ -1,0 +1,50 @@
+version: "3"
+
+networks:
+  loki:
+
+services:
+  loki:
+    image: grafana/loki:2.0.0
+    ports:
+      - "3100:3100"
+    expose:
+      - 3100
+    volumes:
+      - ./loki-local-config.yaml:/etc/loki/loki-local-config.yaml
+      - loki-data:/loki/
+    command: -config.file=/etc/loki/loki-local-config.yaml
+    networks:
+      - loki
+
+  promtail:
+    image: grafana/promtail:2.0.0
+    expose:
+      - 9080
+    ports:
+      - "9080:9080"
+    volumes:
+      - ./example/myapp.log:/var/log/myapp.log
+      - promtail-data:/var/lib/promtail/positions
+      - ./promtail-local-config.yaml:/etc/promtail/promtail-local-config.yaml
+    command: -config.file=/etc/promtail/promtail-local-config.yaml
+    networks:
+      - loki
+
+  grafana:
+    image: grafana/grafana:latest
+    volumes:
+      - grafana_data:/var/lib/grafana
+    restart: unless-stopped
+    expose:
+        - 3000
+    ports:
+      - "3000:3000"
+    networks:
+      - loki
+
+volumes:
+  grafana_data: { }
+  promtail-data: { }
+  loki-data: { }
+
